@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Grades_Ex4{
+public class Grades{
   public static void main(String[] args){
     float ex1, ex2, ex3, avg;
     Scanner input = new Scanner(System.in);
@@ -16,17 +16,15 @@ public class Grades_Ex4{
 
     avg = (ex1 + ex2 + ex3)/3;
 
-   if (avg >= 90)
-    System.out.println("Your grades is A");
-   else if (avg >= 70 && avg < 90)
-    System.out.println("Your grades is B");
-   else if (avg >= 50 && avg <70)
-    System.out.println("Your grades is C");
-   else if (avg < 50)
-    System.out.println("Your grades is F");
-   else
-   System.out.println("Invalid grade");
-
-
-	}
+    if(avg >=90)
+      System.out.println("Your grade is A");
+    else if (avg >=70 && avg < 90)
+      System.out.println("Your grade is B");
+    else if (avg >=50 && avg < 70)
+      System.out.println("Your grade is C");
+    else if (avg < 50)
+      System.out.println("Your grade is F");
+    else
+      System.out.println("Invalid Grade");
+  }
 }

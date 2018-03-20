@@ -7,18 +7,16 @@ public class Square{
     System.out.print("Enter square size: ");
     int size = input.nextInt();
 
-	squareOfAsteriks(size);
+    squareOfAsteriks(size);
 
-    }//end main
+  }
 
- public static void squareOfAsteriks(int size){
-	 for(int row = 1; row <= size; row++){
-	 for(int col = 1; col <= size; col++)
-	 System.out.print("[]");
+  public static void squareOfAsteriks(int size){
+   for(int row = 1; row <= size; row++){
+     for(int col = 1; col <= size; col++)
+       System.out.print("[]");
 
-	System.out.println();
-
-		}
-}
-
+       System.out.println();
+    }
+  }
 }

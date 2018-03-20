@@ -5,16 +5,16 @@ public class Break_Ex3{
     Scanner input = new Scanner(System.in);
     int counter = 0;
 
-    System.out.println("See if you can guess the correct number");
-    System.out.println("Gueass a number from 1 to 10");
+    System.out.println("Guess the correct number");
+    System.out.println("Guess a number form 1 to 10");
     System.out.println("You have 10 attempts");
 
     while(input.hasNext()){
-		if((input.nextInt() == 8) || (counter ==10)){
-			System.out.println("Game over");
-      		break;
+	  counter++;
+      if((input.nextInt() == 8) || (counter == 10)){
+        System.out.println("Game over");
+        break;
+      }
     }
-
-		}
-	}
+  }
 }

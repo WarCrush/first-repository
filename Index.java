@@ -5,12 +5,18 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-4):");
+    System.out.println("Select an option (1-7):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
-    System.out.println("4. Exit");
+    System.out.println("4. Shadowing");
+    System.out.println("5. Overloading");
+    System.out.println("6. FirstArray");
+    System.out.println("7. SecondArray");
+    System.out.println("8. TryCatch");
+    System.out.println("9. EnhancedFor");
+    System.out.println("10. Exit");
 
     System.out.println();
 
@@ -34,6 +40,36 @@ public class Index{
 	    Methods.main(null);
        break;
       case 4:
+	   System.out.println("Shadowing lab");
+	   System.out.println();
+	   Shadow.main(null);
+        break;
+      case 5:
+	   System.out.println("Overloading lab");
+	   System.out.println();
+	   Arithmetic.main(null);
+        break;
+      case 6:
+	   System.out.println("FirstArray lab");
+	   System.out.println();
+	   FirstArray.main(null);
+        break;
+      case 7:
+	   System.out.println("SecondArray lab");
+	   System.out.println();
+	   SecondArray.main(null);
+	    break;
+      case 8:
+	   System.out.println("TryCatch lab");
+	   System.out.println();
+	   TryCatch.main(null);
+	    break;
+      case 9:
+	   System.out.println("EnhancedFor lab");
+	   System.out.println();
+	   EnhancedFor.main(null);
+	    break;
+      case 10:
         System.out.println("Exiting....");
         break;
       default:
