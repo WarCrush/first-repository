@@ -16,7 +16,8 @@ public class Index{
     System.out.println("7. SecondArray");
     System.out.println("8. TryCatch");
     System.out.println("9. EnhancedFor");
-    System.out.println("10. Exit");
+    System.out.println("10. SearchStudent");
+    System.out.println("11. Exit");
 
     System.out.println();
 
@@ -70,6 +71,11 @@ public class Index{
 	   EnhancedFor.main(null);
 	    break;
       case 10:
+	   System.out.println("SearchStudent lab");
+	   System.out.println();
+	   SearchStudent.main(null);
+	    break;
+      case 11:
         System.out.println("Exiting....");
         break;
       default:
