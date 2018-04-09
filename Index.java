@@ -17,7 +17,11 @@ public class Index{
     System.out.println("8. TryCatch");
     System.out.println("9. EnhancedFor");
     System.out.println("10. SearchStudent");
-    System.out.println("11. Exit");
+    System.out.println("11. Celcius");
+    System.out.println("12. Faherenheit");
+    System.out.println("13. Search");
+    System.out.println("14. Convert");
+    System.out.println("15. Exit");
 
     System.out.println();
 
@@ -75,7 +79,28 @@ public class Index{
 	   System.out.println();
 	   SearchStudent.main(null);
 	    break;
-      case 11:
+	    case 11:
+			   System.out.println("Celsius lab");
+			   System.out.println();
+			   celsius.main(null);
+	    break;
+	    case 12:
+			   System.out.println("Fahernheit lab");
+			   System.out.println();
+			   fahrenheit.main(null);
+	    break;
+	    case 13:
+			   System.out.println("Search lab");
+			   System.out.println();
+			   Search.main(null);
+	    break;
+	    case 14:
+			   System.out.println("Convert lab");
+			   System.out.println();
+			   Convert.main(null);
+	    break;
+
+      case 15:
         System.out.println("Exiting....");
         break;
       default:
